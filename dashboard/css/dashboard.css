@@ -213,6 +213,24 @@ includes profile, search bar and welcome note */
     height: 200px;
 }
 
+
+.card-container2{
+    background-color: #fff;
+    margin-top: 10px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 20px;
+    width: 93%;
+    border-radius: 10px;
+    box-shadow: 10px 5px 10px 5px lightgray;
+}
+.card-container2 h1{
+    font-size: 18px;
+    padding-bottom: 1rem
+}
+
+
 .card-container h1{
 
     color: #0c012f;
@@ -224,6 +242,12 @@ includes profile, search bar and welcome note */
     display: flex;
     gap: 3rem;
 }
+
+.card-flex2{
+    display: flex;
+    justify-content: space-between;
+}
+
 
 .card-student{
 
@@ -239,6 +263,57 @@ includes profile, search bar and welcome note */
     box-shadow: 2px 2px 1px color #443f3f33;
     cursor: pointer;
 }
+
+.card-student1{
+    background: rgb(204 242 239);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 30%;
+    height: 120px;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+    box-shadow: 2px 2px 1px color #443f3f33;
+    cursor: pointer;
+}
+
+.card-student2{
+    background: rgb(206 204 242);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 30%;
+    height: 120px;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+    box-shadow: 2px 2px 1px color #443f3f33;
+    cursor: pointer;
+}
+.card-student3{
+    background: rgb(254 226 254);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 30%;
+    height: 120px;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+    box-shadow: 2px 2px 1px color #443f3f33;
+    cursor: pointer;
+}
+.card-student3:hover{
+    transform: translate(-5px);
+}
+.card-student2:hover{
+    transform: translate(-5px);
+}
+.card-student1:hover{
+    transform: translate(-5px);
+}
+
 
 .card-student:hover{
     transform: translate(-5px);
@@ -383,4 +458,21 @@ includes profile, search bar and welcome note */
     border-radius: 10px;
     border-right: #0c012f solid 3px;
 
+}
+
+.passcode1{
+    font-weight: bold;
+}
+.passcode-value1{
+    width: 200px;
+    margin-top: 30px;
+    height: 15px;
+    background-color: gray;
+    border-radius: 20px;
+}
+.pv1{
+    border-radius: 20px;
+    width: 50%;
+    height: 15px;
+    background-color: dodgerblue;
 }
