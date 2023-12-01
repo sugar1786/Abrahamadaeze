@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* text-decoration: none; */
+}
+
+
+body{
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+    /* background-color: #f5f5f5; */
+}
+
+.C{
+    width: 1200px;
+    height: 800px;
+    position: relative;
+    margin: auto;
+    background-color: #f5f5f5;
+}
+
+.C1{
+    width: 1200px;
+    height: 800px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 366.7px 366.7px 366.7px;
+    grid-template-rows: 700px;
+    column-gap: 25px;
+}
+.C2{
+    position: absolute;
+    top: 650px;
+    left: 1120px;
+    
+}
+.set{
+    background-color: green;
+    color: lightgray;
+    font-size: 50px;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+.set1{
+        background-color: magenta;
+        color: lightgray;
+        font-size: 50px;
+        border-radius: 50px;
+        padding: 20px;
+        margin-top: 10px;
+}
+
+.C1a{
+    display: grid;
+    grid-template-columns: 366.7px;
+    height: 800px;
+    width: 366.7px;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+.C1a1{
+    position: relative;
+    
+}
+
+button{
+    background-color: transparent;
+    width: 200px;
+    margin: auto;
+    padding: 20px 30px;
+    border-radius: 40px;
+    font-size: 18px;
+    color: rgb(146, 103, 146);
+    border: 1px solid color rgb(146, 103, 146);
+    
+}
+
+.C1a1 .fa-solid{
+    font-size: 32px;
+    position: absolute;
+    color: #808080;
+    left: 300px;
+    cursor: pointer;
+}
+
+.C1a1 img{
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    position: relative;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 100px;
+}
+
+.C1a1 h1{
+    font-size: 24px;
+    position: relative;
+    text-align: center;
+    top: 25px;
+}
+
+.C1a1:nth-child(1) p{
+    font-size: 18px;
+    position: relative;
+    text-align: center;
+    top: 25px;
+    color: #808080;
+}
+
+.C1a1:nth-child(2){
+    display: grid;
+    grid-template-columns: 366.7px;
+    grid-template-rows: 80px 80px 80px 80px;
+    row-gap: 6px;
+}
+
+.C1a1:nth-child(2) .C1a1a{
+    position: relative;
+    display: grid;
+    grid-template-columns: 100px 200px;
+    /* grid-template-rows: */
+    padding: 20px;
+       
+}
+
+span{
+    text-align: end;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.C1a1:nth-child(2) .C1a1a p{
+    width: 80px;
+}
+
+.C1a1a p{
+    /* display: inline; */
+   font-size: 17px;
+   
+}
+
+.C1a1a{
+    border-bottom: 1px solid lightgray;
+}
