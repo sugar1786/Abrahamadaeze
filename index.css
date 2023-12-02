@@ -1,0 +1,185 @@
+
+/* Here is my landing page design */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    overflow-x: hidden;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+   
+}
+.first{
+    background-color: rgb(245, 238, 238);
+    height: 75vh;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin-left: 130px;
+}
+.inner1{
+    width: 70%;
+    height: 73vh;
+    background-color: white;
+    
+}
+.inner1i img{
+    width: 100%;
+}
+.inner1ii{
+    padding: 20px 30px;
+}
+.inner1ii h4{
+    font-size: 25px; 
+    padding-top: 30px;
+}
+.innerB{
+    padding: 10px 30px; 
+    display: flex;
+}
+.innerBi{
+    display: flex;
+}
+.innerBi span{
+    padding: 15px; 
+    background-color: rgb(235, 87, 87);
+    border-radius: 50%;
+}
+.p1{
+    padding: 3px 5px;
+}
+.p2{
+    padding: 0 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.innerBii{
+    display: flex; 
+    margin-left: 125px;
+}
+.innerBii span{
+    padding: 15px; 
+    background-color: rgb(235, 87, 87);
+    border-radius: 50%;
+}
+.p3{
+    padding: 3px 5px;
+}
+.p4{
+    padding: 0 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.innerC{
+    padding: 10px 30px; 
+    display: flex;
+}
+.innerCi{
+    display: flex;
+}
+.innerCi span{
+    padding: 15px; 
+    background-color: rgb(235, 87, 87);
+    border-radius: 50%;
+}
+.p5{
+    padding: 3px 5px;
+}
+.p6{
+    padding: 0 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.innerCii{
+    display: flex; 
+    margin-left: 120px;
+}
+.innerCii span{
+    padding: 15px; 
+    background-color: rgb(235, 87, 87);
+    border-radius: 50%;
+}
+.p7{
+    padding: 3px 5px;
+}
+.p8{
+    padding: 0 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.inner2{
+    flex-direction: column;
+}
+.inner3{
+    background-color: white;
+    width: 250px;
+    
+    margin-bottom: 30px;
+    padding: 40px 20px;
+    border-radius: 0 0 10px 10px;
+}
+.inner3 h4{
+    font-size: 18px;
+    margin-bottom: 7px;
+}
+.inner4{
+    background-color: white;
+    margin-bottom: 40px;
+    border-left: 8px solid blue;
+    border-radius: 10px;
+    padding: 20px 20px;
+}
+.inner4i{
+    margin-bottom: 10px;
+    
+}
+.inner4i h4{
+    font-size: 20px;
+    margin-bottom: 5px;
+    
+}
+.p9{
+    color: gray;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.p10{
+    font-size: 16px;
+    color: gray;
+}
+.inner4ii{
+    display: flex;
+}
+.inner4ii img{
+    width: 50px;
+    border-radius: 50%;
+    height: 8vh;
+    margin-left: 20px;
+}
+.inner5{
+    background-color: white;
+    padding: 20px 20px;
+    border-left: 8px solid rgb(216, 26, 26);
+    border-radius: 10px;
+}
+/* 
+here is my mobile responsiveness */
+@media (max-width: 1023px){
+    .first{
+        flex-direction: column;
+    }   
+}
+
+
+
+
+
+
+
+
+
