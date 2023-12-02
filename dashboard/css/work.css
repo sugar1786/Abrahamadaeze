@@ -1,0 +1,27 @@
+body{
+
+    background-color: red;
+}
+
+
+.container{
+
+    background-color: white;
+    text-align: center;
+    margin: auto;
+    padding: 350px;
+    border-radius: 15px;
+   
+
+}
+
+.p{
+    font-size: 25px;
+    color: purple;
+
+}
+
+.solid{
+    font-size: 250px;
+
+}
